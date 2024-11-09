@@ -99,29 +99,3 @@ if __name__ == "__main__":
     main()
 
 
- 
-
-
-
-
-
-# import pytesseract as tess
-# from PIL import Image
-
-# # Set Tesseract path
-# tess.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-# # Open the image
-# img_path = r'C:\Users\deepa\Documents\Downloads\testing.jpg'
-# try:
-#     img = Image.open(img_path)
-#     print(f"Image loaded successfully: {img_path}")
-
-#     # Perform OCR
-#     text = tess.image_to_string(img, lang='eng', config='--psm 6')
-
-#     # Print the extracted text
-#     print(f"Extracted Text:\n{text}")
-
-# except Exception as e:
-#     print(f"Error occurred: {e}")
